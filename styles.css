@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #6f42c1; /* اللون البنفسجي */
+    color: white;
+}
+section{
+    padding-bottom: 0;
+}
+
+/* .hero {
+    background: url('logo9.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+} */
+.hero {
+    background: url('logo9.jpg') no-repeat center center;
+    background-size: cover; /* تجعل الصورة تغطي كامل الخلفية */
+    background-attachment: fixed; /* تثبيت الصورة في الخلفية (اختياري) */
+    color: white;
+    text-align: center;
+    padding: 4rem 0; /* يمكنك تعديل الهوامش حسب الحاجة */
+    height: 100vh; /* يجعل العنصر يغطي ارتفاع الصفحة بالكامل */
+}
+
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a2a9d;
+    border-color: #5a2a9d;
+}
